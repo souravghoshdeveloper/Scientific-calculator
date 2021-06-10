@@ -1,4 +1,4 @@
-package com.example.syntheticcalculator;
+package com.example.scientificcalculator;
 
 import org.junit.Test;
 
