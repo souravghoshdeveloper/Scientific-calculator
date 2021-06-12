@@ -58,7 +58,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <Button
-                        android:id="@+id/bac"
+                        android:id="@+id/buttonac"
                         android:text="AC"
                         android:textSize="30sp"
                         android:background="#000"
@@ -69,7 +69,7 @@
 
                     </Button>
                     <Button
-                        android:id="@+id/bc"
+                        android:id="@+id/buttonc"
                         android:text="C"
                         android:textSize="30sp"
                         android:background="#000"
@@ -80,7 +80,7 @@
 
                     </Button>
                     <Button
-                        android:id="@+id/bb1"
+                        android:id="@+id/buttonb1"
                         android:text="("
                         android:textSize="30sp"
                         android:background="#000"
@@ -91,7 +91,7 @@
 
                     </Button>
                     <Button
-                        android:id="@+id/bb2"
+                        android:id="@+id/buttonb2"
                         android:text=")"
                         android:textSize="30sp"
                         android:background="#000"
@@ -103,7 +103,7 @@
                     </Button>
 
                     <Button
-                        android:id="@+id/bpi"
+                        android:id="@+id/buttonpi"
                         android:layout_width="77dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
@@ -127,7 +127,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <Button
-                        android:id="@+id/bsin"
+                        android:id="@+id/buttonsin"
                         android:text="sin"
                         android:textAllCaps="false"
                         android:textSize="30sp"
@@ -139,7 +139,7 @@
 
                     </Button>
                     <Button
-                        android:id="@+id/bcos"
+                        android:id="@+id/buttoncos"
                         android:text="cos"
                         android:textAllCaps="false"
                         android:textSize="30sp"
@@ -151,7 +151,7 @@
 
                     </Button>
                     <Button
-                        android:id="@+id/btan"
+                        android:id="@+id/buttontan"
                         android:text="tan"
                         android:textAllCaps="false"
                         android:textSize="30sp"
@@ -163,7 +163,7 @@
 
                     </Button>
                     <Button
-                        android:id="@+id/blog"
+                        android:id="@+id/buttonlog"
                         android:text="log"
                         android:textAllCaps="false"
                         android:textSize="30sp"
@@ -175,7 +175,7 @@
 
                     </Button>
                     <Button
-                        android:id="@+id/bln"
+                        android:id="@+id/buttonln"
                         android:text="ln"
                         android:textAllCaps="false"
                         android:textSize="30sp"
@@ -199,7 +199,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <Button
-                        android:id="@+id/bfact"
+                        android:id="@+id/buttonfact"
                         android:text="x!"
                         android:textAllCaps="false"
                         android:textSize="30sp"
@@ -211,7 +211,7 @@
 
                     </Button>
                     <Button
-                        android:id="@+id/bsquare"
+                        android:id="@+id/buttonsquare"
                         android:text="x²"
                         android:textAllCaps="false"
                         android:textSize="30sp"
@@ -223,7 +223,7 @@
 
                     </Button>
                     <Button
-                        android:id="@+id/bsqrt"
+                        android:id="@+id/buttonsqrt"
                         android:text="√"
                         android:textAllCaps="false"
                         android:textSize="30sp"
@@ -235,7 +235,7 @@
 
                     </Button>
                     <Button
-                        android:id="@+id/binv"
+                        android:id="@+id/buttoninv"
                         android:text="1/x"
                         android:textAllCaps="false"
                         android:textSize="30sp"
@@ -248,7 +248,7 @@
                     </Button>
 
                     <Button
-                        android:id="@+id/bdiv"
+                        android:id="@+id/buttondiv"
                         android:layout_width="436dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
@@ -271,7 +271,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <Button
-                        android:id="@+id/b7"
+                        android:id="@+id/button7"
                         android:text="7"
                         android:textSize="30sp"
                         android:background="#000"
@@ -282,7 +282,7 @@
 
                     </Button>
                     <Button
-                        android:id="@+id/b8"
+                        android:id="@+id/button8"
                         android:text="8"
                         android:textSize="30sp"
                         android:background="#000"
@@ -293,7 +293,7 @@
 
                     </Button>
                     <Button
-                        android:id="@+id/b9"
+                        android:id="@+id/button9"
                         android:text="9"
                         android:textSize="30sp"
                         android:background="#000"
@@ -304,7 +304,7 @@
 
                     </Button>
                     <Button
-                        android:id="@+id/bmul"
+                        android:id="@+id/buttonmul"
                         android:text="×"
                         android:textSize="30sp"
                         android:background="#000"
@@ -327,7 +327,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <Button
-                        android:id="@+id/b4"
+                        android:id="@+id/button4"
                         android:text="4"
                         android:textSize="30sp"
                         android:background="#000"
@@ -338,7 +338,7 @@
 
                     </Button>
                     <Button
-                        android:id="@+id/b5"
+                        android:id="@+id/button5"
                         android:text="5"
                         android:textSize="30sp"
                         android:background="#000"
@@ -349,7 +349,7 @@
 
                     </Button>
                     <Button
-                        android:id="@+id/b6"
+                        android:id="@+id/button6"
                         android:text="6"
                         android:textSize="30sp"
                         android:background="#000"
@@ -360,7 +360,7 @@
 
                     </Button>
                     <Button
-                        android:id="@+id/bmin"
+                        android:id="@+id/buttonmin"
                         android:text="-"
                         android:textSize="30sp"
                         android:background="#000"
@@ -383,7 +383,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <Button
-                        android:id="@+id/b1"
+                        android:id="@+id/button1"
                         android:text="1"
                         android:textSize="30sp"
                         android:background="#000"
@@ -394,7 +394,7 @@
 
                     </Button>
                     <Button
-                        android:id="@+id/b2"
+                        android:id="@+id/button2"
                         android:text="2"
                         android:textSize="30sp"
                         android:background="#000"
@@ -405,7 +405,7 @@
 
                     </Button>
                     <Button
-                        android:id="@+id/b3"
+                        android:id="@+id/button3"
                         android:text="3"
                         android:textSize="30sp"
                         android:background="#000"
@@ -416,7 +416,7 @@
 
                     </Button>
                     <Button
-                        android:id="@+id/bplus"
+                        android:id="@+id/buttonplus"
                         android:text="+"
                         android:textSize="30sp"
                         android:background="#000"
@@ -450,7 +450,7 @@
 
                     </Button>
                     <Button
-                        android:id="@+id/b0"
+                        android:id="@+id/button0"
                         android:text="0"
                         android:textSize="30sp"
                         android:background="#000"
@@ -461,7 +461,7 @@
 
                     </Button>
                     <Button
-                        android:id="@+id/bdot"
+                        android:id="@+id/buttondot"
                         android:text="."
                         android:textSize="30sp"
                         android:background="#000"
@@ -472,7 +472,7 @@
 
                     </Button>
                     <Button
-                        android:id="@+id/bequal"
+                        android:id="@+id/buttonequal"
                         android:text="="
                         android:textSize="30sp"
                         android:background="#000"
