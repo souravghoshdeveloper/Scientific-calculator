@@ -1,4 +1,4 @@
-package com.example.scientificcalculator;
+package com.innovativedevelopergroup.scientificcalculator;
 
 import org.junit.Test;
 

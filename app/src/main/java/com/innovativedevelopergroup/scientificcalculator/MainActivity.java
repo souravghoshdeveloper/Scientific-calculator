@@ -1,4 +1,4 @@
-package com.example.scientificcalculator;
+package com.innovativedevelopergroup.scientificcalculator;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    Button b1,b2,b3,b4,b5,b6,b7,b8,b9,b0,bdot,bpi,bequal,bplus,bmin,bmul,bdiv,binv,bsqrt,bsquare,bfact,bln,blog,btan,bcos,bsin,bb1,bb2,bc,bac;
+    Button b1,b2,b3,b4,b5,b6,b7,b8,b9,b0,bdot,bpi,bequal,bplus,bmin,bmul,bdiv,binv,bsqrt,bsquare,bfact,bln,blog,btan,bcos,bsin,bb1,bb2,bc,bac,buttonpercentage;
     TextView tvmain,tvsec;
     String pi = "3.14159265";
 
@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
         bb2 = findViewById(R.id.bb2);
         bc = findViewById(R.id.bc);
         bac = findViewById(R.id.bac);
+        buttonpercentage = findViewById(R.id.buttonpercentage);
 
         tvmain = findViewById(R.id.tvmain);
         tvsec = findViewById(R.id.tvsec);
@@ -246,6 +247,13 @@ public class MainActivity extends AppCompatActivity {
                 double result = eval(replacedstr);
                 tvmain.setText(String.valueOf(result));
                 tvsec.setText(val);
+            }
+        });
+
+        buttonpercentage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                tvmain.setText(tvmain.getText()+"%");
             }
         });
 
