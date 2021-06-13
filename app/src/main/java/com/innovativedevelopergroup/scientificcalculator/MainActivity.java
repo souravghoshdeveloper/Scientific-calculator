@@ -239,6 +239,15 @@ public class MainActivity extends AppCompatActivity {
                 tvmain.setText(tvmain.getText()+"log");
             }
         });
+        buttonpercentage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                double d = Double.parseDouble(tvmain.getText().toString());
+                double percentage = d/100;
+                tvmain.setText(String.valueOf(percentage));
+                tvsec.setText(d+"%");
+            }
+        });
         buttonequal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -247,13 +256,6 @@ public class MainActivity extends AppCompatActivity {
                 double result = eval(replacedstr);
                 tvmain.setText(String.valueOf(result));
                 tvsec.setText(val);
-            }
-        });
-
-        buttonpercentage.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                tvmain.setText(tvmain.getText()+"%");
             }
         });
 
