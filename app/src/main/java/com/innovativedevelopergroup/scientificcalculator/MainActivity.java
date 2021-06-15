@@ -27,6 +27,11 @@ public class MainActivity extends AppCompatActivity {
         button8 = findViewById(R.id.button8);
         button9 = findViewById(R.id.button9);
         button0 = findViewById(R.id.button0);
+        buttonsin = findViewById(R.id.buttonsin);
+        buttoncos = findViewById(R.id.buttoncos);
+        buttontan = findViewById(R.id.buttontan);
+        buttonlog = findViewById(R.id.buttonlog);
+        buttonln = findViewById(R.id.buttonln);
         buttonpi = findViewById(R.id.buttonpi);
         buttondot = findViewById(R.id.buttondot);
         buttonequal = findViewById(R.id.buttonequal);
@@ -38,11 +43,6 @@ public class MainActivity extends AppCompatActivity {
         buttonsqrt = findViewById(R.id.buttonsqrt);
         buttonsquare = findViewById(R.id.buttonsquare);
         buttonfact = findViewById(R.id.buttonfact);
-        buttonln = findViewById(R.id.buttonln);
-        buttonlog = findViewById(R.id.buttonlog);
-        buttontan = findViewById(R.id.buttontan);
-        buttonsin = findViewById(R.id.buttonsin);
-        buttoncos = findViewById(R.id.buttoncos);
         buttonb1 = findViewById(R.id.buttonb1);
         buttonb2 = findViewById(R.id.buttonb2);
         buttonc = findViewById(R.id.buttonc);
